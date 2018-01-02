@@ -278,7 +278,7 @@ p a:hover {
 	width: 300px;
 }
 #body > ul li a {
-	color: #000;
+	color: white;
 	display: block;
 	font-family: poller_oneregular;
 	font-size: 20px;
