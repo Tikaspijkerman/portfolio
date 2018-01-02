@@ -168,6 +168,7 @@ p a:hover {
 	padding: 0;
 	opacity: 0.8;
 	transition: 0.5s ease-in-out;
+	width: 300px;
 }
 #body div ul li .figure:hover img {
 	opacity: 1;
