@@ -112,6 +112,13 @@ p a:hover {
 	padding: 0;
 }
 
+#body > div img flowers {
+	border: 2px solid #292929;
+	margin: 24px 0 0;
+	padding: 0;
+	height: 400px;
+}
+
 #body > div .article {
 	margin: 0 auto;
 	padding: 30px 30px 0;
