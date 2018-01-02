@@ -296,7 +296,9 @@ p a:hover {
 	padding: 0;
 	opacity: .8;
 	transition: 0.5s ease-in-out;
+	width: 300px;
 }
+
 #body > ul li a:hover img {
 	opacity: 1;
 }
