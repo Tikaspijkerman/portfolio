@@ -1,8 +1,8 @@
 
-var btn = document.querySelector("#btn-one");
+var backgroundbutton = document.querySelector("#btn-one");
 var image = document.querySelector("#pinkimage");
 
-btn.addEventListener("click", function(){
+backgroundbutton.addEventListener("click", function(){
   var XHR = new XMLHttpRequest();
   XHR.onreadystatechange = function (){
     if(XHR.readyState == 4 && XHR.status == 200) {
