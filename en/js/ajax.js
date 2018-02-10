@@ -1,13 +1,13 @@
 
-var backgroundbutton = document.querySelector("#btn-one");
+var button = document.querySelector("#btn-one");
 var image = document.querySelector("#pinkimage");
 
-backgroundbutton.addEventListener("click", function(){
+button.addEventListener("click", function(){
   var XHR = new XMLHttpRequest();
   XHR.onreadystatechange = function (){
     if(XHR.readyState == 4 && XHR.status == 200) {
       var url = JSON.parse(XHR.responseText).message;
-      img.src = url;
+      image.src = url;
     }
   }
 
