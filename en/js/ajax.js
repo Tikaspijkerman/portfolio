@@ -1,6 +1,6 @@
 
 var btn = document.querySelector("#btn-one");
-var image = document.querySelector("pinkimage");
+var image = document.querySelector("#pinkimage");
 
 btn.addEventListener("click", function(){
   var XHR = new XMLHttpRequest();
